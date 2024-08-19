@@ -1,13 +1,164 @@
+/* General Styles */
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: #2e3f3a;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+/* Header */
+header {
+  background-color: #434141;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Main Content Area */
+main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Forms */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Error Messages */
+.error {
+  color: red;
+  margin-top: 1rem;
+}
+
+
+/* Header Component Styles */
+header {
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: black;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header>nav>img{
+  width: 50px;
+}
+
+nav a, .auth-links button {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  position: relative;
+  transition: color 0.3s ease;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+nav a:hover, .auth-links button:hover {
+  color: #007bff;
+}
+
+nav a::before, .auth-links button::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #007bff;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+nav a:hover::before, .auth-links button:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Specific style for Logout button */
+.auth-links .logout-btn {
+  color: #333; /* Default color */
+}
+
+.auth-links .logout-btn:hover {
+  font-size: large;
+  color: red; /* Hover color for Logout button */
+}
+
+.auth-links .logout-btn:hover::before {
+  background-color: red; /* Underline color for Logout button on hover */
+}
+
+.auth-links {
+  margin-left: auto;
+  display: flex;
+  gap: 1rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  form {
+      padding: 1rem;
+  }
+
+  form input, form button {
+      font-size: 0.875rem;
+  }
+
+  header nav {
+      flex-direction: column;
+      gap: 0.5rem;
+  }
 }

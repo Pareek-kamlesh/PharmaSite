@@ -1,0 +1,74 @@
+[
+    {
+        "name":"Manforce dotted",
+        "price":"765",
+        "description":"Condom",
+        "stock":"2009",
+        "imageUrl":"https://imgs.search.brave.com/_cG7FhXwnLZNjW7iUjDNTvIXC7ah-PwbxNn9frGAQZc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4w/MS5waGFybWVhc3ku/aW4vZGFtL3Byb2R1/Y3RzX290Yy9JMTU0/NjQvbWFuZm9yY2Ut/Y29uZG9tLXN1bm55/LWVkaXRpb24tMTBz/LTItMTY2OTcxMDI3/Ni5qcGc_ZGltPTE0/NDB4MTQ0MCZxPTc1"
+    },
+    {
+        "name":"Zerotol-P",
+        "price":"98",
+        "description":"Tablet For headache",
+        "stock":"300",
+        "imageUrl":"https://res.cloudinary.com/mela-techologies-inc/image/upload/q_auto,f_auto/v1680763721/seller-product-images/IMG-20230225-WA0027_al8rqh"
+    },
+    {
+        "name":"Little Angel Pants",
+        "price":"100",
+        "description":"For babies nourishment huggies",
+        "stock":"5098",
+        "imageUrl":"https://m.media-amazon.com/images/I/518Xcg+2HML._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "name":"Body Mass",
+        "price":"500",
+        "description":"Mass Gainer",
+        "stock":"1005",
+        "imageUrl":"https://m.media-amazon.com/images/I/81bTmECH3uL._SX679_.jpg"
+    },
+    {
+        "name":"Tulsi Ras",
+        "price":"120",
+        "description":"Cough Syrup",
+        "stock":"987",
+        "imageUrl":"https://imgs.search.brave.com/O2oe8C0q2dX9tyeNqLrjUE1HBnlNfh7gNcsX63qCv7Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly81Lmlt/aW1nLmNvbS9kYXRh/NS9QVC9BTi9NWS0x/NjM4NTQzNy90dWxz/aS1yYXMtMTAwMHgx/MDAwLnBuZw"
+    },
+    {
+        "name":"PAN IV",
+        "price":"540",
+        "description":"Painkiller Injection",
+        "stock":"1000",
+        "imageUrl":"https://imgs.search.brave.com/9VuArCVqbw46OLN_erTtsno2wX2eeCceR_MG5VwzXIM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bmV0bWVkcy5jb20v/aW1hZ2VzL3Byb2R1/Y3QtdjEvNjAweDYw/MC8zNzg3NjkvcGFu/X2l2XzQwbWdfaW5q/ZWN0aW9uXzFzXzQ1/MjAxXzBfMi5qcGc"
+    },
+    {
+        "name":"Dettol",
+        "price":"89",
+        "description":"Anticeptic Liquid",
+        "stock":"765",
+        "imageUrl":"https://imgs.search.brave.com/GZjBiyHOnqb25QlrOmUW_0jy_PU7h11gZ6KBNTyCPEo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hZnJp/Y2FuZGVsaWdodHN0/b3JlLmNvbS9jZG4v/c2hvcC9wcm9kdWN0/cy9WUzFfNDI5Ml84/MDB4LmpwZz92PTE3/MTU4OTM4OTI"
+    },
+    {
+        "name":"Caladryl Lotion",
+        "price":"89",
+        "description":"Anti-allergic lotion",
+        "stock":"890",
+        "imageUrl":"https://imgs.search.brave.com/Aq241p0SVbqeSj9sFoO0WBXkraKt939Pf5ZaLeWMulQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzgxLTRqd3JDVmhM/LmpwZw"
+    },
+    {
+        "name":"Dolo-650",
+        "price":"350",
+        "description":"Painkiller tablet",
+        "stock":"890",
+        "imageUrl":"https://imgs.search.brave.com/L-JWL-_CoUgbmhuWYmcWSfd9ez_RB9TDTyJiNTbWT0k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRz/Lm15dXBjaGFyLmNv/bS80MjQxL0RvbG8t/NjUwLmpwZw"
+    },
+    {
+        "name":"Codex-DX",
+        "price":"270",
+        "description":"Cough Syrup",
+        "stock":"5098",
+        "imageUrl":"https://imgs.search.brave.com/Dg30ixbOFrBVRyXDWs3cCuLbJ1dY7W00bQftQ-WHSqI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly81Lmlt/aW1nLmNvbS9kYXRh/NS9TRUxMRVIvRGVm/YXVsdC8yMDIwLzEw/L0pIL0JXL0hNLzY0/MjY2MjM0L2NvZGV4/LWR4LXN5cnVwLTUw/MHg1MDAuanBn"
+    }
+
+
+]
